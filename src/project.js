@@ -11,7 +11,6 @@ if (selectModal) {
   extraScore = parseInt(extraScoreStr)
 }
 
-
 window.__require = function e(t, n, o) {
   function c(i, r) {
     if (!n[i]) {
@@ -41,24 +40,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "68076EFnW1JeZUzdnbOOKNr", "AddScore");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -94,24 +93,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "0fe07DOz8VMcYKlDM2VxHhQ", "AdjusWithHeight");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -124,9 +123,9 @@ window.__require = function e(t, n, o) {
       value: !0
     });
     var a = cc.Enum({
-        TOP: 0,
-        BOTTOM: 1
-      }),
+      TOP: 0,
+      BOTTOM: 1
+    }),
       i = cc._decorator,
       r = i.ccclass,
       s = i.property,
@@ -227,24 +226,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "3db2d9MuTtO8JRQKnPm9kfu", "AudioManager");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -282,24 +281,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "aa0f5e77Z9FXJ3DrgQcqASi", "AutoDestroy");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -338,24 +337,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "fd2c5sUJdNElqycZdmzNC7g", "DataManager");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -438,24 +437,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "c6f04DncqhJIoWmE4UojNVj", "DynamicLoad");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -489,24 +488,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "e94b9uwJsJB94QZmqCRpyTe", "EffectCenter");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -898,24 +897,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "44d58DM3EZDh45gxc2rlMFX", "EffectSprite");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -965,24 +964,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "78235dKIMdFVqcEjSP7q4OM", "FailedUi");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -1101,24 +1100,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "922f3dsGCZCHbXJvwDr0rdF", "GameFunction");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -1217,106 +1216,106 @@ window.__require = function e(t, n, o) {
               n.getComponent(cc.PhysicsCircleCollider).restitution = fruitQTan;
             }
             n.getComponent(cc.PhysicsCircleCollider).apply();
-            cc.tween(n).to(.5, {scale: 1}, {
+            cc.tween(n).to(.5, { scale: 1 }, {
               easing: "backOut"
             }).call(function () {
               t.targetFruit = n
             }).start()
           }, t.prototype.createLevelUpFruit = function (e, t) {
-          var o = cc.instantiate(this.fruitPre);
-          o.parent = this.fruitNode, o.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruit[e], o.children[0].getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruit[e], o.getComponent("fruitData").fruitNumber = e, o.position = t, o.scale = 0, o.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, -100), o.getComponent(cc.PhysicsCircleCollider).radius = o.height / 2, o.getComponent(cc.PhysicsCircleCollider).apply(), cc.tween(o).to(.5, {
-            scale: 1
-          }, {
-            easing: "backOut"
-          }).call(function () {
-            null != o.getComponent(cc.PhysicsCircleCollider) && (o.getComponent(cc.PhysicsCircleCollider).radius = o.height / 2, o.getComponent(cc.RigidBody).type = cc.RigidBodyType.Dynamic, o.getComponent(cc.PhysicsCircleCollider).apply())
-          }).start(), n.Instance.fruitHeigth = n.Instance.findHighestFruit()
-        }, t.prototype.createFruitSui = function (e, t) {
-        }, t.prototype.createFruitL = function (e, t, n) {
-          u.default.Instance.Play(3, !1, .5), u.default.Instance.Play(6, !1, .3);
-          for (var o = 0; o < 10; o++) {
-            var c = r.default.Spawn("juicePre", this.downEffect);
-            c.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruitL[e];
-            var a = 359 * Math.random(),
-              i = 30 * Math.random() + n / 2,
-              l = cc.v2(Math.sin(a * Math.PI / 180) * i, Math.cos(a * Math.PI / 180) * i);
-            c.scale = .5 * Math.random() + n / 100;
-            var p = .5 * Math.random();
-            c.position = t, c.runAction(cc.sequence(cc.spawn(cc.moveBy(p, l), cc.scaleTo(p + .5, .3), cc.rotateBy(p + .5, s.default.RandomInteger(-360, 360))), cc.fadeOut(.1), cc.callFunc(function () {
-              h.active = !1
-            }, this)))
-          }
-          for (var f = 0; f < 20; f++) {
-            var h = r.default.Spawn("juicePre", this.downEffect);
-            h.getComponent(cc.Sprite).spriteFrame = d.default.Instance.guozhiL[e], h.active = !0;
-            a = 359 * Math.random(), i = 30 * Math.random() + n / 2, l = cc.v2(Math.sin(a * Math.PI / 180) * i, Math.cos(a * Math.PI / 180) * i);
-            h.scale = .5 * Math.random() + n / 100;
-            p = .5 * Math.random();
-            h.position = t, h.runAction(cc.sequence(cc.spawn(cc.moveBy(p, l), cc.scaleTo(p + .5, .3)), cc.fadeOut(.1), cc.callFunc(function () {
-              h.active = !1
-            }, this)))
-          }
-          var m = r.default.Spawn("juicePre", this.downEffect);
-          m.getComponent(cc.Sprite).spriteFrame = d.default.Instance.guozhiZ[e], m.position = t, m.scale = 0, m.angle = s.default.RandomInteger(0, 360), m.runAction(cc.sequence(cc.spawn(cc.scaleTo(.2, n / 150), cc.fadeOut(1)), cc.callFunc(function () {
-            m.active = !1
-          })))
-        }, t.prototype.levelUpEffect = function () {
-          for (var e = 0; e < 25; e++) {
-            var t = r.default.Spawn("lightEffect", this.downEffect);
-            t.scale = .3 * Math.random() + .2, t.opacity = 210;
-            var n = 360 * Math.random() * Math.PI / 180,
-              o = 20 * Math.random(),
-              c = 35 + 60 * Math.random(),
-              a = cc.v2(Math.sin(n) * (o + c), Math.cos(n) * (o + c));
-            cc.tween(t).to(.8, {
-              position: a,
-              angle: s.default.getRandomNum(180, 360, !0),
-              opacity: s.default.getRandomNum(.4, .8)
+            var o = cc.instantiate(this.fruitPre);
+            o.parent = this.fruitNode, o.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruit[e], o.children[0].getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruit[e], o.getComponent("fruitData").fruitNumber = e, o.position = t, o.scale = 0, o.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, -100), o.getComponent(cc.PhysicsCircleCollider).radius = o.height / 2, o.getComponent(cc.PhysicsCircleCollider).apply(), cc.tween(o).to(.5, {
+              scale: 1
             }, {
-              easing: "cubicOut"
-            }).then(cc.removeSelf(!0))
-          }
-        }, t.prototype.conboHit = function (e) {
-          var t = this;
-          u.default.Instance.Play(5, !1, .5);
-          var n = r.default.Spawn("addScore", this.bazieffect);
-          n.position = cc.v2(0, -200), n.scale = .2, n.children[0].getComponent(cc.Label).string = e, n.runAction(cc.sequence(cc.spawn(cc.scaleTo(.3, 1), cc.moveBy(.3, 0, 200), cc.rotateBy(.3, 720), cc.callFunc(function () {
-            t.getScore(10 * e, cc.v2(0, -200), .8, .5)
-          })), cc.fadeOut(.5))), this.levelUpEffect()
-        }, t.prototype.getScore = function (e, t, n, o) {
-          var c = r.default.Spawn("score", this.bazieffect);
-          c.position = t, c.scale = .2, c.children[1].getComponent(cc.Label).string = e, c.runAction(cc.sequence(cc.spawn(cc.scaleTo(.3, n), cc.moveBy(.3, 0, 150), cc.rotateBy(.3, 720)), cc.fadeOut(o)))
-        }, t.prototype.ribbonEffect = function (e) {
-          u.default.Instance.Play(3, !1, 1);
-          for (var t = s.default.getRandomNum(80, 100), n = 0; n < t; n++) {
-            var o = r.default.Spawn("star", this.bazieffect);
-            o.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fllows[s.default.getRandomNum(0, 5, !0)], o.position = e;
-            e.x;
-            o.setScale(s.default.getRandomNum(.7, 1));
-            var c = 360 * Math.random() * Math.PI / 180,
-              a = 360 * Math.random(),
-              i = cc.v2(o.x + Math.sin(c) * a, o.y + Math.cos(c) * a + 150);
-            cc.v2(i.x, i.y + 100);
-            o.runAction(cc.sequence(cc.spawn(cc.moveTo(.255, i).easing(cc.easeCubicActionOut()), cc.scaleTo(.255, 1 * Math.random() + .5), cc.moveBy(4.25, cc.v2(0, .8 * -cc.winSize.height - Math.random() * cc.winSize.height)), cc.rotateBy(4.25, (1800 * Math.random() + 1200) * (Math.random() > .5 ? 1 : -1)), cc.sequence(cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0)), cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0)), cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0))), cc.sequence(cc.delayTime(.17 * s.default.getRandomNum(20, 24.5)), cc.fadeOut(.17))), cc.removeSelf(!0)))
-          }
-        }, t.prototype.ShowLandParti = function (e, t) {
-          for (var n = t, o = [cc.v2(e.position.x - 8, e.position.y), cc.v2(e.position.x + 8, e.position.y)], c = 0; c < o.length; c++) {
-            if (o[c].x < e.position.x) var a = -1;
-            else a = 1;
-            for (var i = function () {
-              var t = r.default.Spawn("juicePre", e);
-              t.setSiblingIndex(4), t.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fllows[s.default.getRandomNum(0, 5, !0)], t.stopAllActions(), t.opacity = 255, t.scale = .3;
-              var n = o[c];
-              t.setPosition(n);
-              var i = cc.v2(s.default.getRandomNum(0, 400, !0) * a, -s.default.getRandomNum(300, 500, !0)),
-                u = s.default.getRandomNum(1440, 3600, !0) * a,
-                p = s.default.getRandomNum(450, 600, !0);
-              t.runAction(cc.sequence(cc.spawn(cc.sequence(cc.jumpBy(s.default.RandomInteger(1500, 1700) / p, i, p, 1), cc.spawn(cc.moveBy(50 / p, cc.v2(0, -30)), cc.fadeOut(50 / p))), cc.scaleTo(s.default.RandomInteger(1500, 1700) / p, s.default.getRandomNum(.4, .7, !1)), cc.rotateTo(s.default.RandomInteger(1500, 1700) / p, u / 2)), cc.callFunc(function () {
-                r.default.Despawn("juicePre", t)
-              }, l)))
-            }, l = this, u = 0; u < n; u++) i()
-          }
-        }, t.Instance = null, c([h(cc.Node)], t.prototype, "bgLayer", void 0), c([h(cc.Node)], t.prototype, "bgCamera", void 0), c([h(cc.Node)], t.prototype, "mainCamera", void 0), c([h(cc.Node)], t.prototype, "fruitNode", void 0), c([h(cc.Node)], t.prototype, "lineNode", void 0), c([h(cc.Node)], t.prototype, "bazieffect", void 0), c([h(cc.Node)], t.prototype, "downEffect", void 0), c([h(cc.Prefab)], t.prototype, "fruitPre", void 0), t = n = c([f], t)
+              easing: "backOut"
+            }).call(function () {
+              null != o.getComponent(cc.PhysicsCircleCollider) && (o.getComponent(cc.PhysicsCircleCollider).radius = o.height / 2, o.getComponent(cc.RigidBody).type = cc.RigidBodyType.Dynamic, o.getComponent(cc.PhysicsCircleCollider).apply())
+            }).start(), n.Instance.fruitHeigth = n.Instance.findHighestFruit()
+          }, t.prototype.createFruitSui = function (e, t) {
+          }, t.prototype.createFruitL = function (e, t, n) {
+            u.default.Instance.Play(3, !1, .5), u.default.Instance.Play(6, !1, .3);
+            for (var o = 0; o < 10; o++) {
+              var c = r.default.Spawn("juicePre", this.downEffect);
+              c.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fruitL[e];
+              var a = 359 * Math.random(),
+                i = 30 * Math.random() + n / 2,
+                l = cc.v2(Math.sin(a * Math.PI / 180) * i, Math.cos(a * Math.PI / 180) * i);
+              c.scale = .5 * Math.random() + n / 100;
+              var p = .5 * Math.random();
+              c.position = t, c.runAction(cc.sequence(cc.spawn(cc.moveBy(p, l), cc.scaleTo(p + .5, .3), cc.rotateBy(p + .5, s.default.RandomInteger(-360, 360))), cc.fadeOut(.1), cc.callFunc(function () {
+                h.active = !1
+              }, this)))
+            }
+            for (var f = 0; f < 20; f++) {
+              var h = r.default.Spawn("juicePre", this.downEffect);
+              h.getComponent(cc.Sprite).spriteFrame = d.default.Instance.guozhiL[e], h.active = !0;
+              a = 359 * Math.random(), i = 30 * Math.random() + n / 2, l = cc.v2(Math.sin(a * Math.PI / 180) * i, Math.cos(a * Math.PI / 180) * i);
+              h.scale = .5 * Math.random() + n / 100;
+              p = .5 * Math.random();
+              h.position = t, h.runAction(cc.sequence(cc.spawn(cc.moveBy(p, l), cc.scaleTo(p + .5, .3)), cc.fadeOut(.1), cc.callFunc(function () {
+                h.active = !1
+              }, this)))
+            }
+            var m = r.default.Spawn("juicePre", this.downEffect);
+            m.getComponent(cc.Sprite).spriteFrame = d.default.Instance.guozhiZ[e], m.position = t, m.scale = 0, m.angle = s.default.RandomInteger(0, 360), m.runAction(cc.sequence(cc.spawn(cc.scaleTo(.2, n / 150), cc.fadeOut(1)), cc.callFunc(function () {
+              m.active = !1
+            })))
+          }, t.prototype.levelUpEffect = function () {
+            for (var e = 0; e < 25; e++) {
+              var t = r.default.Spawn("lightEffect", this.downEffect);
+              t.scale = .3 * Math.random() + .2, t.opacity = 210;
+              var n = 360 * Math.random() * Math.PI / 180,
+                o = 20 * Math.random(),
+                c = 35 + 60 * Math.random(),
+                a = cc.v2(Math.sin(n) * (o + c), Math.cos(n) * (o + c));
+              cc.tween(t).to(.8, {
+                position: a,
+                angle: s.default.getRandomNum(180, 360, !0),
+                opacity: s.default.getRandomNum(.4, .8)
+              }, {
+                easing: "cubicOut"
+              }).then(cc.removeSelf(!0))
+            }
+          }, t.prototype.conboHit = function (e) {
+            var t = this;
+            u.default.Instance.Play(5, !1, .5);
+            var n = r.default.Spawn("addScore", this.bazieffect);
+            n.position = cc.v2(0, -200), n.scale = .2, n.children[0].getComponent(cc.Label).string = e, n.runAction(cc.sequence(cc.spawn(cc.scaleTo(.3, 1), cc.moveBy(.3, 0, 200), cc.rotateBy(.3, 720), cc.callFunc(function () {
+              t.getScore(10 * e, cc.v2(0, -200), .8, .5)
+            })), cc.fadeOut(.5))), this.levelUpEffect()
+          }, t.prototype.getScore = function (e, t, n, o) {
+            var c = r.default.Spawn("score", this.bazieffect);
+            c.position = t, c.scale = .2, c.children[1].getComponent(cc.Label).string = e, c.runAction(cc.sequence(cc.spawn(cc.scaleTo(.3, n), cc.moveBy(.3, 0, 150), cc.rotateBy(.3, 720)), cc.fadeOut(o)))
+          }, t.prototype.ribbonEffect = function (e) {
+            u.default.Instance.Play(3, !1, 1);
+            for (var t = s.default.getRandomNum(80, 100), n = 0; n < t; n++) {
+              var o = r.default.Spawn("star", this.bazieffect);
+              o.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fllows[s.default.getRandomNum(0, 5, !0)], o.position = e;
+              e.x;
+              o.setScale(s.default.getRandomNum(.7, 1));
+              var c = 360 * Math.random() * Math.PI / 180,
+                a = 360 * Math.random(),
+                i = cc.v2(o.x + Math.sin(c) * a, o.y + Math.cos(c) * a + 150);
+              cc.v2(i.x, i.y + 100);
+              o.runAction(cc.sequence(cc.spawn(cc.moveTo(.255, i).easing(cc.easeCubicActionOut()), cc.scaleTo(.255, 1 * Math.random() + .5), cc.moveBy(4.25, cc.v2(0, .8 * -cc.winSize.height - Math.random() * cc.winSize.height)), cc.rotateBy(4.25, (1800 * Math.random() + 1200) * (Math.random() > .5 ? 1 : -1)), cc.sequence(cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0)), cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0)), cc.moveBy(.17 * (8 * Math.random() + 6), cc.v2((100 * Math.random() + 100) * (Math.random() > .5 ? -1 : 1), 0))), cc.sequence(cc.delayTime(.17 * s.default.getRandomNum(20, 24.5)), cc.fadeOut(.17))), cc.removeSelf(!0)))
+            }
+          }, t.prototype.ShowLandParti = function (e, t) {
+            for (var n = t, o = [cc.v2(e.position.x - 8, e.position.y), cc.v2(e.position.x + 8, e.position.y)], c = 0; c < o.length; c++) {
+              if (o[c].x < e.position.x) var a = -1;
+              else a = 1;
+              for (var i = function () {
+                var t = r.default.Spawn("juicePre", e);
+                t.setSiblingIndex(4), t.getComponent(cc.Sprite).spriteFrame = d.default.Instance.fllows[s.default.getRandomNum(0, 5, !0)], t.stopAllActions(), t.opacity = 255, t.scale = .3;
+                var n = o[c];
+                t.setPosition(n);
+                var i = cc.v2(s.default.getRandomNum(0, 400, !0) * a, -s.default.getRandomNum(300, 500, !0)),
+                  u = s.default.getRandomNum(1440, 3600, !0) * a,
+                  p = s.default.getRandomNum(450, 600, !0);
+                t.runAction(cc.sequence(cc.spawn(cc.sequence(cc.jumpBy(s.default.RandomInteger(1500, 1700) / p, i, p, 1), cc.spawn(cc.moveBy(50 / p, cc.v2(0, -30)), cc.fadeOut(50 / p))), cc.scaleTo(s.default.RandomInteger(1500, 1700) / p, s.default.getRandomNum(.4, .7, !1)), cc.rotateTo(s.default.RandomInteger(1500, 1700) / p, u / 2)), cc.callFunc(function () {
+                  r.default.Despawn("juicePre", t)
+                }, l)))
+              }, l = this, u = 0; u < n; u++) i()
+            }
+          }, t.Instance = null, c([h(cc.Node)], t.prototype, "bgLayer", void 0), c([h(cc.Node)], t.prototype, "bgCamera", void 0), c([h(cc.Node)], t.prototype, "mainCamera", void 0), c([h(cc.Node)], t.prototype, "fruitNode", void 0), c([h(cc.Node)], t.prototype, "lineNode", void 0), c([h(cc.Node)], t.prototype, "bazieffect", void 0), c([h(cc.Node)], t.prototype, "downEffect", void 0), c([h(cc.Prefab)], t.prototype, "fruitPre", void 0), t = n = c([f], t)
       }(cc.Component);
     n.default = m, cc._RF.pop()
   }, {
@@ -1332,24 +1331,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "e5ba8qbQSBBz6Xl6OzdDwcL", "GameManager");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -1542,24 +1541,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "2fb79pURUZExoy/hAOtHdvz", "InputController");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -1605,24 +1604,24 @@ window.__require = function e(t, n, o) {
           i.default.playerTouch && null != a.default.Instance.targetFruit && (this.touchNum = 1, a.default.Instance.targetFruit.x = this.node.convertToNodeSpaceAR(e.getLocation()).x)
         }, t.prototype.onTouchEnd = function (e) {
           var t = this;
-          i.default.playerTouch && null != a.default.Instance.targetFruit && 1 == this.touchNum && (this.touchNum = 0, a.default.Instance.targetFruit.getComponent(cc.PhysicsCircleCollider).radius = a.default.Instance.targetFruit.height / 2, a.default.Instance.targetFruit.getComponent(cc.PhysicsCircleCollider).apply(), a.default.Instance.targetFruit.getComponent(cc.RigidBody).active = true,a.default.Instance.targetFruit.getComponent(cc.RigidBody).type = cc.RigidBodyType.Dynamic, a.default.Instance.targetFruit.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, -800), a.default.Instance.targetFruit = null,
+          i.default.playerTouch && null != a.default.Instance.targetFruit && 1 == this.touchNum && (this.touchNum = 0, a.default.Instance.targetFruit.getComponent(cc.PhysicsCircleCollider).radius = a.default.Instance.targetFruit.height / 2, a.default.Instance.targetFruit.getComponent(cc.PhysicsCircleCollider).apply(), a.default.Instance.targetFruit.getComponent(cc.RigidBody).active = true, a.default.Instance.targetFruit.getComponent(cc.RigidBody).type = cc.RigidBodyType.Dynamic, a.default.Instance.targetFruit.getComponent(cc.RigidBody).linearVelocity = cc.v2(0, -800), a.default.Instance.targetFruit = null,
             // 生成指定水果
             this.scheduleOnce(function () {
               if (setFruits) {
-                let {startFruits} =  setFruits;
+                let { startFruits } = setFruits;
                 i.default.GameUpdateCtrl && (startFruits.length > t.createFruitCount ?
                   (a.default.Instance.createOneFruit(startFruits[t.createFruitCount]), t.createFruitCount++) :
                   (a.default.Instance.createOneFruit(setFruits.randomFunction()), t.createFruitCount++))
               } else {
                 i.default.GameUpdateCtrl && (0 == t.createFruitCount ? (a.default.Instance.createOneFruit(0),
                   t.createFruitCount++) : 1 == t.createFruitCount ? (a.default.Instance.createOneFruit(0),
-                  t.createFruitCount++) : 2 == t.createFruitCount ? (a.default.Instance.createOneFruit(1),
-                  t.createFruitCount++) : 3 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
-                  t.createFruitCount++) : 4 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
-                  t.createFruitCount++) : 5 == t.createFruitCount ? (a.default.Instance.createOneFruit(3),
-                  t.createFruitCount++) : t.createFruitCount > 5 &&
-                  (a.default.Instance.createOneFruit(s.default.RandomInteger(0, 5)),
-                    t.createFruitCount++))
+                    t.createFruitCount++) : 2 == t.createFruitCount ? (a.default.Instance.createOneFruit(1),
+                      t.createFruitCount++) : 3 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
+                        t.createFruitCount++) : 4 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
+                          t.createFruitCount++) : 5 == t.createFruitCount ? (a.default.Instance.createOneFruit(3),
+                            t.createFruitCount++) : t.createFruitCount > 5 &&
+                (a.default.Instance.createOneFruit(s.default.RandomInteger(0, 5)),
+                  t.createFruitCount++))
               }
             }, .5))
         }, t.prototype.closeTouch = function () {
@@ -1645,24 +1644,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "bf98eOWbcJGeLpI/I0HGW8j", "KnifeCollision");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -1942,24 +1941,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "47901xGYuJBULv7U12/mbpk", "MainGameUi");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2001,10 +2000,10 @@ window.__require = function e(t, n, o) {
           this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
         }, t.prototype.adsButtonFunc = function () {
           if (clickChangeFruit) {
-            if(gameFunction.default.Instance.targetFruit) {
+            if (gameFunction.default.Instance.targetFruit) {
               gameFunction.default.Instance.targetFruit.destroy();
               gameFunction.default.Instance.targetFruit = null;
-              gameFunction.default.Instance.createOneFruit(Math.floor(Math.random()*6));
+              gameFunction.default.Instance.createOneFruit(Math.floor(Math.random() * 6));
             }
             return;
           }
@@ -2254,24 +2253,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "73fcd1QF4lBEY8WPMIj3xr6", "PhysicsParticle");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2324,24 +2323,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "42678O0bOREZKAMjCljpxI3", "PoolManager");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2398,24 +2397,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "a801awRcfxIuaFIGRbzJh/6", "RandomFly");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2516,24 +2515,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "ed67fc+jBJNaKKrcIP1lh6B", "RenderWater");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2582,24 +2581,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "8d9fdeeLCdEi5Zh0PNydB+G", "Rocker");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2630,24 +2629,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "d0683O41+dL0LiH0SbEMp2i", "RotateAround");
     var o, c = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       a = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2758,24 +2757,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "4aec9V8qWdDa5TaF3chhmaO", "SpriteManager");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -2904,8 +2903,8 @@ window.__require = function e(t, n, o) {
         if (cc.sys.isBrowser) {
           console.log("\u6d4f\u89c8\u5668");
           var n = new Blob([e], {
-              type: "application/json"
-            }),
+            type: "application/json"
+          }),
             o = document.createElement("a");
           o.download = t, o.innerHTML = "Download File", null != window.webkitURL ? o.href = window.webkitURL.createObjectURL(n) : (o.href = window.URL.createObjectURL(n), o.onclick = destroyClickedElement, o.style.display = "none", document.body.appendChild(o)), o.click()
         }
@@ -3268,24 +3267,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "9f05e4uSUJBf7dp3DMjGgbj", "WallUpdate");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -3417,24 +3416,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "55375yB7OxHJ6SSoJ5ShoDj", "fruitData");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -3470,13 +3469,13 @@ window.__require = function e(t, n, o) {
           if (this.node.x < -this.bianjieX && (this.node.x = -this.bianjieX), this.node.x > this.bianjieX && (this.node.x = this.bianjieX), this.notTargetTime += e, this.returnNumber && (this.scheduleOnce(function () {
             t.getNumberTime = 0
           }, .25), this.returnNumber = !1),
-          "fruitNode" == this.node.parent.name && (this.testEndDJS += e),
-          this.node.y + this.node.width / 2 > cc.find("Canvas/lineNode")
-            .children[0].y && 0 == this.pengzhuangCount
-          && this.endCtrl
-          && 0 == this.endOne
-          && this.testEndDJS > 3
-          && wuDi) { // 无敌模式
+            "fruitNode" == this.node.parent.name && (this.testEndDJS += e),
+            this.node.y + this.node.width / 2 > cc.find("Canvas/lineNode")
+              .children[0].y && 0 == this.pengzhuangCount
+            && this.endCtrl
+            && 0 == this.endOne
+            && this.testEndDJS > 3
+            && wuDi) { // 无敌模式
             a.default.GameUpdateCtrl = !1, a.default.playerTouch = !1;
             for (var n = 0; n < cc.find("Canvas/fruitNode").children.length; n++) cc.find("Canvas/fruitNode").children[n].removeComponent(cc.PhysicsCircleCollider), cc.find("Canvas/fruitNode").children[n].removeComponent(cc.RigidBody);
             this.node.color = cc.Color.RED, cc.tween(this.node).to(.3, {
@@ -3519,34 +3518,35 @@ window.__require = function e(t, n, o) {
                 }).start())) :
               c == r && border == c && border == r && // 边界逻辑
               (this.pengzhuangCount += 1,
-              0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
-                u.default.Instance.SetScoreTween(a.default.score),
-                n.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-                n.node.getComponent(cc.PhysicsCircleCollider).apply(),
-                this.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-                this.node.getComponent(cc.PhysicsCircleCollider).apply(),
-                a.default.playerTouch = !1, cc.tween(t.node).to(.1, {
-                position: n.node.position
-              }).call(function () {
-                i.default.Instance.createFruitSui(o.fruitNumber, n.node.position),
-                  i.default.Instance.createFruitL(o.fruitNumber, n.node.position, n.node.width),
-                  // +1 变 -1
-                  i.default.Instance.createLevelUpFruit(o.fruitNumber + fruitVolume, n.node.position);
-                var e = cc.find("Canvas/upEffectParent").getChildByName("daxigua");
-                e.active = !0, e.opacity = 0, cc.tween(e).to(.5, {
-                  opacity: 150
-                }).start();
-                var c = new cc.Node;
-                c.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], c.parent = cc.find("Canvas/upEffectParent"), c.position = cc.v2(0, -500), c.scale = 0;
-                var r = new cc.Node;
-                r.addComponent(cc.Sprite).spriteFrame = l.default.Instance.caidia[6], r.scale = 3, r.parent = c, r.position = cc.v2(0), cc.tween(r).by(5, {
-                  angle: 360
-                }).repeatForever().start();
-                var s = new cc.Node;
-                s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
-                  a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), e.active = !1, a.default.playerTouch = !0, c.destroy()
-                }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
-              }).start()))
+                0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
+                  u.default.Instance.SetScoreTween(a.default.score),
+                  n.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
+                  n.node.getComponent(cc.PhysicsCircleCollider).apply(),
+                  this.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
+                  this.node.getComponent(cc.PhysicsCircleCollider).apply(),
+                  a.default.playerTouch = !1, cc.tween(t.node).to(.1, {
+                    position: n.node.position
+                  }).call(function () {
+                    i.default.Instance.createFruitSui(o.fruitNumber, n.node.position),
+                      i.default.Instance.createFruitL(o.fruitNumber, n.node.position, n.node.width),
+                      // +1 变 -1
+                      i.default.Instance.createLevelUpFruit(o.fruitNumber + fruitVolume, n.node.position);
+                    var e = cc.find("Canvas/upEffectParent").getChildByName("daxigua");
+                    e.active = !0, e.opacity = 0, cc.tween(e).to(.5, {
+                      opacity: 150
+                    }).start();
+                    var c = new cc.Node;
+                    c.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], c.parent = cc.find("Canvas/upEffectParent"), c.position = cc.v2(0, -500), c.scale = 0;
+                    var r = new cc.Node;
+                    r.addComponent(cc.Sprite).spriteFrame = l.default.Instance.caidia[6], r.scale = 3, r.parent = c, r.position = cc.v2(0), cc.tween(r).by(5, {
+                      angle: 360
+                    }).repeatForever().start();
+                    var s = new cc.Node;
+                    s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
+                      a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), e.active = !1, a.default.playerTouch = !0, c.destroy()
+                    }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()     
+                    takadafadeIn();
+                  }).start()))
           }
         }, t.prototype.createBoom = function () {
           var e = r.default.Spawn("boom", cc.find("Canvas/upEffectParent"));
@@ -3795,24 +3795,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "f8545atw1JIMK0v/hcNWns0", "peaCannonAI");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -3969,24 +3969,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "d42d3uJR2RCPLKQIl417E7S", "startPanel");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -4045,24 +4045,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "589ae7WabhNKbjjj1cMrAIM", "wineObsmove");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;
@@ -4096,24 +4096,24 @@ window.__require = function e(t, n, o) {
     "use strict";
     cc._RF.push(t, "3ea89nQCdpP9II/GHC3tXOf", "winerCollision");
     var o = this && this.__extends || function () {
-        var e = function (t, n) {
-          return (e = Object.setPrototypeOf || {
-              __proto__: []
-            }
-            instanceof Array && function (e, t) {
-              e.__proto__ = t
-            } || function (e, t) {
-              for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
-            })(t, n)
-        };
-        return function (t, n) {
-          function o() {
-            this.constructor = t
-          }
-
-          e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      var e = function (t, n) {
+        return (e = Object.setPrototypeOf || {
+          __proto__: []
         }
-      }(),
+          instanceof Array && function (e, t) {
+            e.__proto__ = t
+          } || function (e, t) {
+            for (var n in t) t.hasOwnProperty(n) && (e[n] = t[n])
+          })(t, n)
+      };
+      return function (t, n) {
+        function o() {
+          this.constructor = t
+        }
+
+        e(t, n), t.prototype = null === n ? Object.create(n) : (o.prototype = n.prototype, new o)
+      }
+    }(),
       c = this && this.__decorate || function (e, t, n, o) {
         var c, a = arguments.length,
           i = a < 3 ? t : null === o ? o = Object.getOwnPropertyDescriptor(t, n) : o;

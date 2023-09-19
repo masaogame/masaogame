@@ -92,10 +92,10 @@
         <img src="res/loading.gif" width="7%" height="7%" />
     </div>
 
-    <div style="display: none;" id="image1">
+    <div id="image1" style="display: none; position: fixed; z-index: 1; bottom: 0;">
         <img style="width: 100%;" src="res/ad2.png">
     </div>
-    <div id="image2">
+    <div id="image2" style="display: block; position: fixed; z-index: 1; bottom: 0;">
         <img style="width: 100%;" src="res/ad1.png">
     </div>
     <script>
@@ -117,6 +117,14 @@
             }
         }
     </script>
+    <div id="takadakenshi" style="display: none; width: 100%; height: 100%; position: fixed; z-index: 2;">
+        <img src="res/takadakenshi.webp" style="height: 100%; margin: auto;">
+    </div>
+    <div id="mikotoba" style="color: black; display: none; position: fixed; z-index: 3; width: 100%; bottom: 10%; text-align: center; font-family: serif; font-size: 2em;">
+        <p>松っちゃん</p>
+        <p>ほんまおめでとう</p>
+        <p><a>天地創造</a></p>
+    </div>
 
     <script type="text/javascript" src="ads.js"></script>
 
@@ -245,6 +253,8 @@
 
     <script src="src/settings.js" charset="utf-8"></script>
     <script src="src/extraSettings.js" charset="utf-8"></script>
+    <script src="src/futonScript.js" charset="utf-8"></script>
+
 
     <script src="main.js" charset="utf-8"></script>
 
