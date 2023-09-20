@@ -3542,10 +3542,9 @@ window.__require = function e(t, n, o) {
                       angle: 360
                     }).repeatForever().start();
                     var s = new cc.Node;
-                    s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
-                      a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), e.active = !1, a.default.playerTouch = !0, c.destroy()
-                    }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()     
-                    takadafadeIn();
+                    s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(3), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
+                      a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), takadafadeIn(), e.active = !1, a.default.playerTouch = !0, c.destroy()
+                    }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
                   }).start()))
           }
         }, t.prototype.createBoom = function () {
