@@ -16,6 +16,13 @@ html {
     -ms-touch-action: none;
 }
 
+body{
+    background-image: url('res/bg1.webp');
+    background-position: 50% 0%; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+    background-size: auto 100vh;
+}
+
 body,
 canvas,
 div {
