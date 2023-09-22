@@ -91,7 +91,7 @@
     <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
         <img src="res/loading.gif" width="7%" height="7%" />
     </div>
-
+    
     <div id="image1" style="display: block; position: fixed; z-index: 1; bottom: 0;">
         <img style="width: 100%; display: block;" src="res/fakeads1-min.png">
     </div>
@@ -119,7 +119,9 @@
         // 3秒ごとに次の画像を表示する
         setInterval(showNextFakead, 10000);
     </script>
-    <div id="soumatou0" style="display: none; opacity: 0; width: 100%; height: 100%; position: fixed; z-index: 6;">
+    <div id="blackout" style="display: none; opacity: 0; width: 100%; height: 100%; position: fixed; z-index: 7; background-color: black;">
+    </div>
+    <div id="soumatou0" style="display: none; width: 100%; height: 100%; position: fixed; z-index: 6;">
         <img src="res/masaobottyan.webp" style="height: 100%; margin: auto;">
     </div>
     <div id="soumatou1" style="display: none; width: 100%; height: 100%; position: fixed; z-index: 5;">
@@ -134,7 +136,7 @@
     <div id="soumatou4" style="display: none; width: 100%; height: 100%; position: fixed; z-index: 2;">
         <img src="res/takadakenshi.webp" style="height: 100%; margin: auto;">
     </div>
-    <div id="soumatou5" style="display: none; opacity: 0; color: black; text-shadow: #FC0 1px 0 10px; position: fixed; z-index: 7; width: 100%; bottom: 10%; text-align: center; font-family: serif; font-size: 2em;">
+    <div id="soumatou5" style="display: none; opacity: 0; color: black; text-shadow: #FC0 1px 0 10px; position: fixed; z-index: 8; width: 100%; bottom: 10%; text-align: center; font-family: serif; font-size: 2em;">
         <p>松っちゃん</p>
         <p style="opacity: 0;">ほんまおめでとう</p>
         <button style="visibility: hidden;">ゲームに戻る</button>

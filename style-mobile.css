@@ -1,27 +1,28 @@
-@media (orientation: portrait) {
-    body {
-        width: 100vw;
-        height: calc(100vw * 16 / 9);
-    }
-}
-
-@media (orientation: landscape) {
-    body {
-        width: calc(100vh * 9 / 16);
-        height: 100vh;
-    }
-}
-
 html {
     -ms-touch-action: none;
 }
 
-body{
-    background-image: url('res/bg1.webp');
-    background-position: 50% 0%; /* 画像を中央に配置 */
-    background-repeat: no-repeat; /* 画像を繰り返さない */
-    background-size: auto 100vh;
+@media screen and (min-aspect-ratio: 9/16) {
+    body {
+        width: calc(100vh * 9 / 16);
+        height: 100vh;
+        background-image: url('res/bg1.webp');
+        background-position: 50% 0%;
+        /* 画像を中央に配置 */
+        background-repeat: no-repeat;
+        /* 画像を繰り返さない */
+        background-size: auto 100vh;
+    }
 }
+
+@media screen and (max-aspect-ratio: 9/16) {
+    body {
+        width: 100vw;
+        height: calc(100vw * 16 / 9);
+        background-image: none;
+    }
+}
+
 
 body,
 canvas,
@@ -57,7 +58,7 @@ body {
     margin: 0;
     cursor: default;
     color: #888;
-    background-color: #333;
+    background-color: black;
     text-align: center;
     font-family: Helvetica, Verdana, Arial, sans-serif;
     display: flex;
