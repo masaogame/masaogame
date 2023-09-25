@@ -2127,7 +2127,8 @@ window.__require = function e(t, n, o) {
             if (a.playNum >= 1) return;
             a.playNum++
           }
-          a.launchScene = e, a.Bros = t, a.caS = n, this.curType = 1, this.getHttpGameId(), this.gamePV_load(), console.log("thisg", this.gameHttpId), o.httpInitUrl(this.gameHttpId);
+          a.launchScene = e, a.Bros = t, a.caS = n, this.curType = 1, this.getHttpGameId(), console.log("thisg", this.gameHttpId), o.httpInitUrl(this.gameHttpId);
+          // a.launchScene = e, a.Bros = t, a.caS = n, this.curType = 1, this.getHttpGameId(), this.gamePV_load(), console.log("thisg", this.gameHttpId), o.httpInitUrl(this.gameHttpId);
           var c = this.initLanguage();
           this.gameNameText = c.game_name, this.gameInfoText = c.game_info, this.txtStartText = c.txtStart, this.txtMoreText = c.txtMore, this.txtAgainText = c.txtAgain, this.gameEndLText = c.gameEndL, this.gameEndL1Text = c.gameEndL1, this.bgLayRgb = c.bgRgb, this.gameEndName1 = c.gameT2, this.gameEndName2 = c.gameT3, this.gameEndUrl1 = c.gameUrl1, this.gameEndUrl2 = c.gameUrl2, this.langugeType = this.curType, i.goToCover(this.adShowBefore, this.adShowAfter, e, t, n)
         },
@@ -2147,9 +2148,9 @@ window.__require = function e(t, n, o) {
         gameOverShowText: function (e, t) {
           this.ajaxLoad("", "gameScore=" + e + "&gameId=" + this.gameHttpId + "&gameType=" + t, this.scoreResult)
         },
-        gamePV_load: function () {
-          this.ajaxLoad("", "gameID=" + this.gameHttpId, this.ajaxOnLogoResult)
-        },
+        // gamePV_load: function () {
+        //   this.ajaxLoad("", "gameID=" + this.gameHttpId, this.ajaxOnLogoResult)
+        // },
         ajaxOnLogoResult: function () {
         },
         ajaxLoad: function (e, t, n) {
@@ -3549,7 +3550,7 @@ window.__require = function e(t, n, o) {
                           a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), e.active = !1, a.default.playerTouch = !0, c.destroy()
                         }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
                       } else {
-                        s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(11.5), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
+                        s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
                           a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), takadafadeIn(), e.active = !1, a.default.playerTouch = !0, c.destroy()
                         }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
                       }
