@@ -2,7 +2,6 @@
 <html>
 
 <head>
-
     <!-- 
         ⢸⣾⣺⢾⣺⢾⣾⣷⣷⣿⣾⣾⣷⣿⣾⣾⣷⣷⡷⣷⣿⣾⣾⣷⣷⣿⣾⣞⣾⠀
         ⢸⡾⣽⢯⡯⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣾⡿⣿⣿⣿⣿⣿⣿⣿⣷⣻⢾⠀
@@ -23,6 +22,10 @@
         ⢘⢜⠸⡘⡔⡕⣕⣥⣆⡠⠀⠂⡀⢂⠈⡈⠠⡘⢀⠐⡀⢁⠂⡐⢀⠂⡐⠠⠠⠀
         ⢰⠡⡣⡑⢌⠌⣞⡾⣿⡿⡄⠂⢐⠀⢂⠐⢠⠃⠄⠂⡐⢀⠂⡐⢀⠂⡐⠈⠨⠀
         ⠘⠘⠘⠘⠐⠃⠓⠛⠛⠛⠂⠐⠀⠈⠀⠈⠘⠀⠈⠀⠐⠀⠂⠀⠀⠀⠀⠀⠁⠀ 
+    -->
+    <!--
+        note
+        高田健志モード実装
     -->
 
     <meta charset="utf-8">
@@ -90,17 +93,34 @@
     </script>-->
 
     <link rel="stylesheet" type="text/css" href="style-mobile.css" />
-
 </head>
 
 <body style="margin: 0;" align="center">
+    <div id="kassanBGM"
+        style="display: none; position: fixed; width: 100vw; height: 100vh; margin: 0 calc(50% - 50vw);">
+        <div id="player"></div>
+    </div>
+
+    <div style="position: fixed; width: 100vw; height: 100vh; margin: 0 calc(50% - 50vw);">
+        <div id="achievement"
+            style="color: black; background-color: chartreuse; display: flex; align-items: center; position: absolute; right: -50%; bottom: 9%; width: auto; height: 3.8em; border-radius: 1.9em 0% 0% 1.9em;">
+            <img src="res/takada-ico.webp" style="width: 3em; height: 3em; margin: 0.4em;"">
+            <div style=" margin: 0.5em;">実績を解除「<span
+                style="color: darkmagenta; font-weight: bold;">名前を言ってはいけないあの人</span>」<br>特別なBGMが開放：YouTubeからロードできます
+        </div>
+        <button onclick="startKassanBGM()"
+            style="color: white; background-color: red; width: 4em; height: 3em; border-radius: 1.5em; font-size: 1em;">Play</button>
+    </div>
+    </div>
+
     <div style="align: center; display: none"><img src="res/share.jpg" width="10%" /></div>
+
 
     <div id="canvasDiv" style="width: 100%; height:100%;">
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
     </div>
 
-
+    <!-- <button onclick="fs()" style="position: fixed; left: 0; top: 0;">フルスクリーン</button> -->
 
     <!-- <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;"></div> -->
     <div id="loadingText"
@@ -117,7 +137,7 @@
     <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
         <img src="res/loading.gif" width="20%" height="20%" />
     </div>
-
+    <span id="fakeadsaria">
     <div id="image1" style="display: block; position: fixed; z-index: 1; bottom: 0;">
         <img style="width: 100%; display: block;" src="res/fakeads1-min.png">
     </div>
@@ -127,6 +147,7 @@
     <div id="image3" style="display: none; position: fixed; z-index: 1; bottom: 0;">
         <img style="width: 100%; display: block;" src="res/fakeads3-min.png">
     </div>
+    </span>
     <script>
         var fakeads = ['image1', 'image2', 'image3'];
         var currentIndex = 0;
@@ -414,10 +435,6 @@
                 document.body.appendChild(cocos2d);
             })();
     </script>
-
-
-
-
 </body>
 
 </html>

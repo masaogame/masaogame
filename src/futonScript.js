@@ -90,3 +90,83 @@ function takadafadeIn() {
     }, 26000)
     localStorage.setItem('getTakadaKenshi', 'true');
 }
+
+let kassanBGM = document.getElementById('kassanBGM');
+let achievement = document.getElementById('achievement');
+let canvasDiv = document.getElementById('canvasDiv');
+let fakeadsaria = document.getElementById('fakeadsaria');
+
+// 2. This code loads the IFrame Player API code asynchronously.
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+// 3. This function creates an <iframe> (and YouTube player)
+//    after the API code downloads.
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        height: '100%',
+        width: '100%',
+        videoId: '9nxORDW96Uo',
+        events: {
+            //   'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+
+// // 4. The API will call this function when the video player is ready.
+// function onPlayerReady(event) {
+//   event.target.playVideo();
+// }
+
+// 5. The API calls this function when the player's state changes.
+//    The function indicates that when playing a video (state=1),
+//    the player should play for six seconds and then stop.
+// var done = false;
+// function onPlayerStateChange(event) {
+//   if (event.data == YT.PlayerState.PLAYING && !done) {
+//     setTimeout(stopVideo, 6000);
+//     done = true;
+//   }
+// }
+// function stopVideo() {
+//   player.stopVideo();
+// }
+
+function startKassanBGM() {
+    kassanBGM.style.display = `block`;
+    achievement.classList.add('slide-out');
+    player.playVideo();
+    canvasDiv.style.opacity = `0.6`;
+    fakeadsaria.style.opacity = `0.3`;
+}
+
+function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.ENDED) {
+        console.log('Video has ended.');
+        kassanBGM.style.display = `none`;
+        canvasDiv.style.opacity = `1`;
+        fakeadsaria.style.opacity = `1`;
+    }
+}
+
+function unlockAchievements() {
+    if (localStorage.getItem('getKatouJunichi')) {
+        console.log('ﾝｼﾞｮﾜﾘｨ!')
+    }else{
+        localStorage.setItem('getKatouJunichi', 'true');
+        achievement.classList.add('slide-in');
+    }
+}
+
+function fs() {
+    var element = document.documentElement;
+    if (element.requestFullscreen) element.requestFullscreen();
+    else if (element.mozRequestFullScreen) element.mozRequestFullScreen();
+    else if (element.webkitRequestFullscreen) element.webkitRequestFullscreen();
+    else if (element.msRequestFullscreen) element.msRequestFullscreen();
+}

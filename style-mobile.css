@@ -23,6 +23,31 @@ html {
     }
 }
 
+@keyframes slideIn {
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 0;
+    }
+}
+@keyframes slideOut {
+    0% {
+        right: 0;
+    }
+    100% {
+        right: -50%;
+    }
+}
+.slide-in {
+    animation: 1s ease-out 0s 1 slideIn;
+    animation-fill-mode: forwards;
+}
+.slide-out {
+    animation: 1s ease-in 0s 1 slideOut;
+    animation-fill-mode: forwards;
+}
+
 body,
 canvas,
 div {

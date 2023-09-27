@@ -3559,6 +3559,7 @@ window.__require = function e(t, n, o) {
                       // }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
                     }).start()))
             } else if (c == 0 && r == 0) {
+              unlockAchievements();
               (this.pengzhuangCount += 1,
                 0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
                   u.default.Instance.SetScoreTween(a.default.score),
