@@ -59,6 +59,10 @@ function takadafadeIn() {
                                         setTimeout(function () {
                                             soumatou10.style.opacity = 1;
                                         }, 0);
+                                        localStorage.setItem('takadaMode', true);
+                                        setTimeout(function () {
+                                            localStorage.removeItem('takadaMode');
+                                        }, 58000);
                                         setTimeout(function () {
                                             let paragraph = document.querySelector('#soumatou10 p:nth-child(2)');
                                             paragraph.style.transition = `opacity 3000ms`;
@@ -112,7 +116,7 @@ function onYouTubeIframeAPIReady() {
         width: '100%',
         videoId: '9nxORDW96Uo',
         events: {
-            //   'onReady': onPlayerReady,
+            'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
         }
     });
@@ -145,12 +149,26 @@ function startKassanBGM() {
     fakeadsaria.style.opacity = `0.3`;
 }
 
+function onPlayerReady(event) {
+    checkTimeId = setInterval(checkTime, 1000); // 1秒ごとにcheckTime関数を実行
+}
+
+function checkTime() {
+    if (player.getCurrentTime() >= 79) {
+        startMomarquee();
+        clearInterval(checkTimeId);
+        localStorage.setItem('debafussan', true);
+    }
+}
+
 function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.ENDED) {
         console.log('Video has ended.');
         kassanBGM.style.display = `none`;
         canvasDiv.style.opacity = `1`;
         fakeadsaria.style.opacity = `1`;
+        stopMomarquee();
+        localStorage.removeItem('debafussan');
     }
 }
 

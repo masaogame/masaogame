@@ -12,7 +12,7 @@
         ⢸⣗⡯⣗⣷⡳⣿⣟⣷⡇⠀⢪⡚⡝⣕⢮⣗⣧⣍⣮⣞⢄⠠⣿⣟⣯⣿⢽⣺⠀
         ⢸⢮⢯⣗⣗⡯⣿⣽⡿⣷⣄⢱⢽⡾⡾⡝⢝⠪⣏⢟⢎⢇⢍⣿⣽⣿⣽⣻⣺⠀
         ⢸⢯⣗⣗⣗⢯⢿⣾⣟⣿⣷⢱⢱⢙⢜⠜⣜⠜⢜⢸⡸⡸⡸⡾⣿⣾⣟⣞⣾⠀         < You can look https://github.com/masaogame/masaogame/ too, that's 'YEE'!
-        ⢸⣷⣷⣷⣿⣿⣿⣿⣽⣻⡽⡕⡕⡕⡵⢬⢲⣛⡲⡵⡱⡑⢅⢝⢜⡾⣽⣻⣽⠀
+        ⢸⣷⣷⣷⣿⣿⣿⣿⣽⣻⡽⡕⡕⡕⡵⢬⢲⣛⡲⡵⡱⡑⢅⢝⢜⡾⣽⣻⣽
         ⢸⣛⡻⡻⡿⣽⢿⣽⣻⢽⡺⡸⡨⡊⢎⢗⠗⠗⠏⢎⠣⡣⡑⢌⢳⢝⣯⣟⣿⠀
         ⢸⢮⢯⢯⢞⣜⢵⣙⢎⠟⡎⡆⢕⢌⠢⠢⡡⢡⠡⡡⢣⠪⡐⠅⢇⢟⢚⢳⢹⠀
         ⢸⢸⢪⢳⢹⢺⢜⢜⢜⢌⠆⡊⢆⠊⢌⠪⡘⡔⢕⢌⢇⢣⢣⠢⠐⡈⡘⠸⠸⠀
@@ -24,8 +24,7 @@
         ⠘⠘⠘⠘⠐⠃⠓⠛⠛⠛⠂⠐⠀⠈⠀⠈⠘⠀⠈⠀⠐⠀⠂⠀⠀⠀⠀⠀⠁⠀ 
     -->
     <!--
-        note
-        高田健志モード実装
+        AB
     -->
 
     <meta charset="utf-8">
@@ -96,8 +95,7 @@
 </head>
 
 <body style="margin: 0;" align="center">
-    <div id="kassanBGM"
-        style="display: none; position: fixed; width: 100vw; height: 100%; margin: 0 calc(50% - 50vw);">
+    <div id="kassanBGM" style="display: none; position: fixed; width: 100vw; height: 100%; margin: 0 calc(50% - 50vw);">
         <div id="player"></div>
     </div>
 
@@ -115,11 +113,17 @@
 
     <div style="align: center; display: none"><img src="res/share.jpg" width="10%" /></div>
 
-
     <div id="canvasDiv" style="width: 100%; height:100%;">
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
     </div>
-    <div style="color: aliceblue; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0; width: 100%; height: auto; font-size: 1em; ">Thanks for playing, Machaaaaao😻 !</div>
+
+    <div
+        style="color: aliceblue; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0; width: 100%; height: auto; font-size: 1em; ">
+        Thanks for playing, Machaaaaao😻 <span style="color: chartreuse;">AB</span></div>
+
+    <div id="marquee-container" style="font-family: MS Gothic;"></div>
+    <script src="src/momarquee.js" charset="utf-8"></script>
+
     <!-- <button onclick="fs()" style="position: fixed; left: 0; top: 0;">フルスクリーン</button> -->
 
     <!-- <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;"></div> -->
@@ -138,15 +142,15 @@
         <img src="res/loading.gif" width="20%" height="20%" />
     </div>
     <span id="fakeadsaria">
-    <div id="image1" style="display: block; position: fixed; z-index: 1; bottom: 0;">
-        <img style="width: 100%; display: block;" src="res/fakeads1-min.png">
-    </div>
-    <div id="image2" style="display: none; position: fixed; z-index: 1; bottom: 0;">
-        <img style="width: 100%; display: block;" src="res/fakeads2-min.png">
-    </div>
-    <div id="image3" style="display: none; position: fixed; z-index: 1; bottom: 0;">
-        <img style="width: 100%; display: block;" src="res/fakeads3-min.png">
-    </div>
+        <div id="image1" style="display: block; position: fixed; z-index: 1; bottom: 0;">
+            <img style="width: 100%; display: block;" src="res/fakeads1-min.png">
+        </div>
+        <div id="image2" style="display: none; position: fixed; z-index: 1; bottom: 0;">
+            <img style="width: 100%; display: block;" src="res/fakeads2-min.png">
+        </div>
+        <div id="image3" style="display: none; position: fixed; z-index: 1; bottom: 0;">
+            <img style="width: 100%; display: block;" src="res/fakeads3-min.png">
+        </div>
     </span>
     <script>
         var fakeads = ['image1', 'image2', 'image3'];

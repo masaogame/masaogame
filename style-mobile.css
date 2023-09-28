@@ -34,25 +34,37 @@ body {
     0% {
         right: calc(var(--achievementH) * -1.5);
     }
+
     100% {
         right: 0;
     }
 }
+
 @keyframes slideOut {
     0% {
         right: 0;
     }
+
     100% {
         right: calc(var(--achievementH) * -1.5);
     }
 }
+
 .slide-in {
     animation: 1s ease-out 0s 1 slideIn;
     animation-fill-mode: forwards;
 }
+
 .slide-out {
     animation: 1s ease-in 0s 1 slideOut;
     animation-fill-mode: forwards;
+}
+
+.marquee {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    pointer-events: none;
 }
 
 body,

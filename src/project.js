@@ -3504,7 +3504,7 @@ window.__require = function e(t, n, o) {
             var fruitVolume = reverseLevelUp ? -1 : 1;
             if (c == r && (reverseLevelUp ? (c > border && r > border) : (c < border && r < border))) {
               (this.pengzhuangCount += 1,
-                0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
+                0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += (this.fruitNumber + 1) * (localStorage.getItem('debafussan') ? -1 : (localStorage.getItem('takadaMode') ? 1000 : 1)), // 改分数
                   u.default.Instance.SetScoreTween(a.default.score),
                   n.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
                   n.node.getComponent(cc.PhysicsCircleCollider).apply(),
@@ -3575,61 +3575,6 @@ window.__require = function e(t, n, o) {
                       n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
                   }).start()))
             }
-            // 合成水果，水果下标 0-9 (0 为葡萄，9 为半个西瓜，有一些特殊逻辑)
-            // c == r && (reverseLevelUp ? (c > border && r > border) : (c < border && r < border)) ? (this.pengzhuangCount += 1,
-            //   0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
-            //     u.default.Instance.SetScoreTween(a.default.score),
-            //     n.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-            //     n.node.getComponent(cc.PhysicsCircleCollider).apply(),
-            //     this.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-            //     this.node.getComponent(cc.PhysicsCircleCollider).apply(),
-            //     cc.tween(t.node).to(.1, {
-            //       position: n.node.position
-            //     }).call(function () {
-            //       i.default.Instance.createFruitSui(o.fruitNumber, n.node.position), i.default.Instance.createFruitL(o.fruitNumber, n.node.position, n.node.width),
-            //         i.default.Instance.createLevelUpFruit(o.fruitNumber + fruitVolume, n.node.position),
-            //         n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
-            //     }).start())) :
-            //   c == r && border == c && border == r && // 边界逻辑
-            //   (this.pengzhuangCount += 1,
-            //     0 == t.node.getComponent("fruitData").getNumber() && (a.default.score += this.fruitNumber + (extraScore ? extraScore : 1), // 改分数
-            //       u.default.Instance.SetScoreTween(a.default.score),
-            //       n.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-            //       n.node.getComponent(cc.PhysicsCircleCollider).apply(),
-            //       this.node.getComponent(cc.PhysicsCircleCollider).radius = 0,
-            //       this.node.getComponent(cc.PhysicsCircleCollider).apply(),
-            //       a.default.playerTouch = !1, cc.tween(t.node).to(.1, {
-            //         position: n.node.position
-            //       }).call(function () {
-            //         i.default.Instance.createFruitSui(o.fruitNumber, n.node.position),
-            //           i.default.Instance.createFruitL(o.fruitNumber, n.node.position, n.node.width),
-            //           // +1 变 -1
-            //           i.default.Instance.createLevelUpFruit(o.fruitNumber + fruitVolume, n.node.position);
-            //         var e = cc.find("Canvas/upEffectParent").getChildByName("daxigua");
-            //         e.active = !0, e.opacity = 0, cc.tween(e).to(.5, {
-            //           opacity: 150
-            //         }).start();
-            //         var c = new cc.Node;
-            //         c.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], c.parent = cc.find("Canvas/upEffectParent"), c.position = cc.v2(0, -500), c.scale = 0;
-            //         var r = new cc.Node;
-            //         r.addComponent(cc.Sprite).spriteFrame = l.default.Instance.caidia[6], r.scale = 3, r.parent = c, r.position = cc.v2(0), cc.tween(r).by(5, {
-            //           angle: 360
-            //         }).repeatForever().start();
-            //         var s = new cc.Node;
-            //         if (localStorage.getItem('getTakadaKenshi')) {
-            //           // 'myKey'が存在し、その値が真（nullまたは"false"以外）の場合に実行されるコード
-            //           s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
-            //             a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), e.active = !1, a.default.playerTouch = !0, c.destroy()
-            //             }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
-            //         } else {
-            //           s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(13), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
-            //           a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), takadafadeIn(), e.active = !1, a.default.playerTouch = !0, c.destroy()
-            //           }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
-            //         }
-            //         // s.addComponent(cc.Sprite).spriteFrame = l.default.Instance.fruit[reverseLevelUp ? 0 : 10], s.parent = c, s.position = cc.v2(0), d.default.Instance.Play(4, !1, 1), i.default.Instance.ribbonEffect(cc.v2(0, 0)), c.runAction(cc.sequence(cc.spawn(cc.jumpBy(1, 0, 0, 300, 1), cc.scaleTo(1, 1)), cc.delayTime(1), cc.spawn(cc.moveTo(1, cc.v2(0, 500)), cc.scaleTo(1, 0)), cc.callFunc(function () {
-            //         //   a.default.score += 100, u.default.Instance.SetScoreTween(a.default.score), takadafadeIn(), e.active = !1, a.default.playerTouch = !0, c.destroy()
-            //         // }))), n.node.active = !1, t.node.active = !1, n.node.destroy(), t.node.destroy()
-            //       }).start()))
           }
         }, t.prototype.createBoom = function () {
           var e = r.default.Spawn("boom", cc.find("Canvas/upEffectParent"));
