@@ -157,7 +157,7 @@ function onPlayerStateChange(event) {
 function unlockAchievements() {
     if (localStorage.getItem('getKatouJunichi')) {
         console.log('ﾝｼﾞｮﾜﾘｨ!')
-    }else{
+    } else {
         localStorage.setItem('getKatouJunichi', 'true');
         achievement.classList.add('slide-in');
     }
@@ -170,3 +170,29 @@ function fs() {
     else if (element.webkitRequestFullscreen) element.webkitRequestFullscreen();
     else if (element.msRequestFullscreen) element.msRequestFullscreen();
 }
+
+//デバイスの画面の高さ（1vh）を算出する関数
+function setHeight() {
+    let vw = window.innerWidth * 0.01;
+    let vh = window.innerHeight * 0.01;
+    let achievementH = achievement.clientWidth;
+    element = document.querySelector('body');
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    document.documentElement.style.setProperty('--vw', `${vw}px`);
+    document.documentElement.style.setProperty('--achievementH', `${achievementH}px`)
+
+    if (vw / vh <= 9 / 16) {
+        element.style.width = `calc(var(--vw, 1vw) * 100)`;
+        element.style.height = `calc(var(--vw, 1vw) * 100 * 16 / 9)`;
+        achievement.style.bottom = `90px`;
+        achievement.style.fontSize = `0.7em`
+    } else {
+        element.style.width = `calc(var(--vh, 1vh) * 100 * 9 / 16)`;
+        element.style.height = `calc(var(--vh, 1vh) * 100)`;
+    }
+    achievement.style.right = `calc(var(--achievementH) * -1.5)`
+}
+//アクセス時に関数を実行
+setHeight();
+//画面回転（リサイズ時）に関数を実行する
+window.addEventListener('resize', setHeight);
