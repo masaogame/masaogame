@@ -92,10 +92,17 @@
     </script>-->
 
     <link rel="stylesheet" type="text/css" href="style-mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 </head>
 
 <body style="margin: 0;" align="center">
     <div id="kassanBGM" style="display: none; position: fixed; width: 100vw; height: 100%; margin: 0 calc(50% - 50vw);">
+        <div id="player"></div>
+    </div>
+
+    <div id="vsGodBGM" style="display: none; position: fixed; width: 100vw; height: 100%; margin: 0 calc(50% - 50vw);">
         <div id="player"></div>
     </div>
 
@@ -119,7 +126,7 @@
 
     <div
         style="color: aliceblue; background-color: rgba(0, 0, 0, 0.5); position: fixed; top: 0; width: 100%; height: auto; font-size: 1em; ">
-        Thanks for playing, Machaaaaao😻 <span style="color: chartreuse;">AB</span></div>
+        Thanks for playing Machao😻 If you want to play "effect" again, remove cookie. <span style="color: chartreuse;">AB</span></div>
 
     <div id="marquee-container" style="font-family: MS Gothic;"></div>
     <script src="src/momarquee.js" charset="utf-8"></script>
@@ -172,7 +179,7 @@
     </script>
 
     <div id="blackout"
-        style="display: none; opacity: 0; width: 100%; height: 100%; position: fixed; z-index: 12; background-color: black;">
+        style="display: none; opacity: 1; width: 100%; height: 100%; position: fixed; z-index: 12; background-color: black;">
     </div>
     <div id="soumatou0" style="display: none; width: 100%; height: 100%; position: fixed; z-index: 11;">
         <img src="res/masaosenzai.webp" style="height: 100%; margin: auto;">
@@ -271,6 +278,24 @@
         <p style="opacity: 0;">よう頑張った</p>
         <button style="visibility: hidden;">ゲームに戻る</button>
     </div>
+
+    <!-- <div id="vsGod"
+        style="color: white; background-color: blue; display: block; width: 90%; height: 90%; left: 5%; top: 5%; position: fixed; z-index: 13; font-family: 'DotGothic16', sans-serif;">
+        <div
+            style="background-color: black; display: flex; width: 90%; height: 1em; margin: auto; border: 5px solid white;">
+            <div style="background-color: yellow; width: 100%; height: 100%;"></div>
+        </div>
+        <div style="height: 40%; margin: auto;">
+            <img src="res/eddo.webp" style="height: 100%;">
+        </div>
+        <!-- <div style="width: 90%; height: 40%; margin: auto; border: 5px solid white; border-radius: 1em;">
+            <p>高田健志が以前所属していたお笑いコンビは次のうちどれ？</p>
+            <div style="background-color: green; display: flex; flex-wrap: wrap;">
+                <div style="color: white; background-color: red; width: 50%;">ダウンタウン</div><div style="color: white; background-color: red; width: 50%;">コント55号</div>
+                <div style="color: white; background-color: red; width: 50%;">オリエンタルラジオ</div><div style="color: white; background-color: red; width: 50%;">レイザーラモン</div>
+            </div>
+        </div> -->
+    </div> -->
 
     <script type="text/javascript" src="ads.js"></script>
 
