@@ -10,7 +10,8 @@ var messages = [
     "はるか<img src=\"res/manyao-chulv.webp\" class=\"likeemoji\">　187993枚 <span style=\"color: chartreuse;\">PW</span>",
     "とーま<img src=\"res/manyao-chulv.webp\" class=\"likeemoji\">　4003枚 <span style=\"color: chartreuse;\">PW</span>",
     "どなゆき<img src=\"res/manyao-chulv.webp\" class=\"likeemoji\">　3328枚 <span style=\"color: chartreuse;\">PW</span>",
-    "<img src=\"res/manyao-lvl.webp\" class=\"likeemoji\"> #マサオゲーム <span style=\"color: chartreuse;\">PW</span>"
+    "Share!<img src=\"res/manyao-lvl.webp\" class=\"likeemoji\"> #マサオゲーム <span style=\"color: chartreuse;\">PW</span>",
+    "#マサオゲーム<img src=\"res/manyao-wm.webp\" class=\"likeemoji\"> is No ads, No tracking, and Cloudflare network powered! <span style=\"color: chartreuse;\">PW</span>"
 ];
 
 // 配列の長さを取得する
